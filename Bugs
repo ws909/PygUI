@@ -1,0 +1,7 @@
+
+----- BUGS -----
+
+UIButton doesn't update if the button moves, only if the mouse does. Don't only add a motion call in the move() function;
+that wouldn't update the mouse if the position was manually changed.
+
+UIButton doesn't update after creation.
